@@ -1,0 +1,82 @@
+.register-page {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+		url('https://media.istockphoto.com/id/1419765701/photo/minimal-home-office-with-pc-desktop-computer-mockup-near-the-window-and-wall-shelves.jpg?s=612x612&w=0&k=20&c=5YsV5C3UEptvULQJcHNmNQsaTnFnW5s_0xocU1ppLuI=');
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.register {
+	height: 600px;
+	width: 500px;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+	z-index: 10;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.heading {
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: 300;
+}
+.circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: white;
+}
+.heading-section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.input-field {
+	height: 40px;
+	padding: 5px;
+	border: none;
+	outline: none;
+}
+.input-label {
+	color: white;
+	font-size: 16px;
+	letter-spacing: 4px;
+}
+.signin-button {
+	width: 100%;
+	height: 40px;
+	background-color: #007cc0;
+	font-size: 20px;
+	font-weight: 500;
+	color: whitesmoke;
+	letter-spacing: 4px;
+	/* text-transform: uppercase; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 6px;
+	transition: all ease 0.5s;
+}
+.signin-button:hover {
+	background-color: #007dc0b1;
+}
+.input-check {
+	height: 20px;
+	width: 20px;
+}
+.password-input-cover {
+	width: 100%;
+}
+.password-field {
+	width: 90%;
+}
+.password {
+	width: 100%;
+}
+.reveal-div {
+	width: 10%;
+	height: 40px;
+	border: none;
+	background-color: #e8f0fe;
+}

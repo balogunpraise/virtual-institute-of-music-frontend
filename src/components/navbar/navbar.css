@@ -1,0 +1,35 @@
+.navbar {
+	padding: 0 10px;
+	height: 5rem;
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.01) 20%,
+		rgba(0, 0, 0, 0.5) 80%
+	);
+	position: fixed;
+	width: 100%;
+	z-index: 20;
+}
+.scrolled-background {
+	background: rgba(0, 0, 0, 0.6);
+}
+.register-button {
+	padding: 5px 15px;
+	background-color: #007cc0;
+	font-size: 20px;
+	color: white;
+	border-radius: 30px;
+	transition: all ease 0.5s;
+}
+.register-button:hover {
+	background-color: #007dc0b1;
+	padding: 5px 20px;
+}
+.list-child {
+	font-size: 18px;
+	letter-spacing: normal;
+	font: weight 300px;
+	cursor: pointer;
+	color: #fff;
+	/* text-transform: uppercase; */
+}
