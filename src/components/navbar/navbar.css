@@ -1,6 +1,6 @@
 .navbar {
 	padding: 0 10px;
-	height: 5rem;
+	height: 12vh;
 	background: linear-gradient(
 		to top,
 		rgba(0, 0, 0, 0.01) 20%,
@@ -32,4 +32,16 @@
 	cursor: pointer;
 	color: #fff;
 	/* text-transform: uppercase; */
+}
+.drop-child {
+	padding: 1px 5px;
+	height: 12vh;
+}
+.drop-child-selected {
+	background: whitesmoke;
+	color: black;
+}
+
+.active-navbar {
+	background-color: black;
 }
