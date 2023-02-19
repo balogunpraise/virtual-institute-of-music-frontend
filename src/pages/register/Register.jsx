@@ -133,9 +133,9 @@ function Register() {
 					</button>
 				</form>
 				<div className='other-options w-full flex justify-center gap-2 mt-4'>
-					<a href='#' className='text-zinc-200'>
-						Home?
-					</a>
+					<p className='text-zinc-200'>
+						<Link to='/'>Home?</Link>
+					</p>
 					<div
 						style={{ width: '2px', height: '30px', backgroundColor: '#007cc0' }}
 					></div>

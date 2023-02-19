@@ -1,0 +1,15 @@
+.navbar {
+	padding: 0 10px;
+	height: 12vh;
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.01) 20%,
+		rgba(0, 0, 0, 0.5) 80%
+	);
+	position: fixed;
+	width: 100%;
+	z-index: 20;
+}
+.scrolled-background {
+	background: rgba(0, 0, 0, 0.6);
+}

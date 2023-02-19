@@ -1,9 +1,69 @@
-.hero {
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-		url('https://plus.unsplash.com/premium_photo-1671076131210-5376fccb100b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80');
-	width: 100%;
-	height: 100vh;
+.presentation {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
 }
-.main-hero-heading {
-	letter-spacing: 10px;
+.introduction {
+	flex: 1;
+}
+button {
+	font-family: 'Poppins', sans-serif;
+}
+.intro-text h1 {
+	font-size: 44px;
+	font-weight: 500;
+	background: linear-gradient(to right, #494964, #6f6f89);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.intro-text p {
+	margin-top: 5px;
+	font-size: 22px;
+	color: #585772;
+}
+
+.cta {
+	padding: 50px 0px 0px 0px;
+}
+.cta-select {
+	border: 2px solid #007cc0;
+	color: #007cc0;
+	background: transparent;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.cta-tour {
+	background: #007cc0;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+	border: none;
+	color: white;
+	margin: 30px 0px 0px 30px;
+}
+.cover {
+	flex: 1;
+}
+.cover img {
+	height: 60vh;
+	filter: drop-shadow(0px 5px 10px black);
+	z-index: 1;
+}
+
+.my-pattern {
+	width: 400px;
+	height: 400px;
+	background-color: #586f7b18;
+	border-radius: 50%;
+	border: none;
+	position: absolute;
+	top: 10%;
+	left: 65%;
+	z-index: -3;
 }

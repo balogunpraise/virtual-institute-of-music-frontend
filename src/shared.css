@@ -1,0 +1,15 @@
+.mobile-navbar {
+	display: none;
+}
+
+.desktop-navbar {
+	display: block;
+}
+@media only screen and (max-width: 768px) {
+	.desktop-navbar {
+		display: none;
+	}
+	.mobile-navbar {
+		display: block;
+	}
+}

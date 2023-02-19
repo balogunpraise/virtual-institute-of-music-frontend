@@ -3,51 +3,27 @@ import './home.css'
 
 const Home = () => {
 	return (
-		<>
-			<section className='hero flex flex-col justify-center items-center gap-7'>
-				<div
-					className='flex flex-col gap-3 justify-center items-center'
-					style={{
-						zIndex: '2',
-					}}
-				>
-					<h2
-						style={{
-							fontSize: '32px',
-							letterSpacing: 'normal',
-							fontWeight: '500',
-							textAlign: 'center',
-							color: '#F7BD00',
-						}}
-					>
-						Try Virtual Institute of Music for free{' '}
-					</h2>
-					<h1
-						className='main-hero-heading'
-						style={{
-							fontSize: '3rem',
-							letterSpacing: 'normal',
-							textAlign: 'center',
-							color: 'white',
-						}}
-					>
-						Build your music career, with practical exercises
-					</h1>
-					<CustomLink link='/register' title='TRY 1 MONTH FOR FREE...' />
-					<h2
-						style={{
-							fontSize: '32px',
-							letterSpacing: 'normal',
-							fontWeight: '500',
-							textAlign: 'center',
-						}}
-						className='text-slate-200'
-					>
-						Get started with a free trial. Cancel anytime.
-					</h2>
+		<main>
+			<section className='presentation'>
+				<div className='introduction'>
+					<div className='intro-text'>
+						<h1>Virtual Institute of Music</h1>
+						<p>Take a shot at VIM and grow your carrier in music.</p>
+					</div>
+					<div className='cta'>
+						<button className='cta-select'>Get Started</button>
+						<button className='cta-tour'>Take a Tour</button>
+					</div>
+				</div>
+				<div className='cover'>
+					<img
+						src='https://merchandising-assets.bestbuy.ca/bltc8653f66842bff7f/blt1e1e415f736514e2/62b3a71b03b23c505f842ba1/mi-20220624-bar-fg-digital-pianos-vs-keyboards-xs.png?width=150p&quality=80&auto=webp'
+						alt=''
+					/>
 				</div>
 			</section>
-		</>
+			<div className='my-pattern'></div>
+		</main>
 	)
 }
 

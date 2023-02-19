@@ -2,7 +2,10 @@ import './login.css'
 import { FaArrowRight, FaEye } from 'react-icons/fa'
 import logo from '../../img/logo.jpg'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 function Login() {
+	const navigate = useNavigate()
 	const [showPassword, setShowPassword] = useState('password')
 	const [cred, setCred] = useState({
 		email: '',
@@ -22,7 +25,11 @@ function Login() {
 
 	const handleSubmit = (e) => {
 		e.preventDefault()
-		console.log(cred)
+		if (!email || !password) {
+			return
+		} else {
+			navigate('/dashboard')
+		}
 	}
 
 	const handleInputs = (e) => {
@@ -109,9 +116,9 @@ function Login() {
 					></div>
 					<p className='text-zinc-200'>
 						New User?{' '}
-						<a className='text-orange-600' href='#'>
-							Register
-						</a>
+						<span className='text-orange-600'>
+							<Link to='/register'>Register</Link>
+						</span>
 					</p>
 				</div>
 			</div>

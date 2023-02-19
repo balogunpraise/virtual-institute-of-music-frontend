@@ -1,10 +1,20 @@
 import React from 'react'
-import Home from './pages/home/Home'
+import { Outlet } from 'react-router-dom'
+import Navbar from './components/navbar/Navbar'
+import MobileNavbar from './components/mobile-navbar/MobileNavbar'
+
+import './shared.css'
 
 function Shared() {
 	return (
 		<>
-			<Home />
+			<section className='desktop-navbar'>
+				<Navbar />
+			</section>
+			<section className='mobile-navbar'>
+				<MobileNavbar />
+			</section>
+			<Outlet />
 		</>
 	)
 }

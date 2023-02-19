@@ -22,7 +22,6 @@ function Navbar() {
 		} else {
 			setIsScrolled(false)
 		}
-		//window.pageYOffset = null;
 	}
 	window.addEventListener('scroll', handleScroll)
 	return (
@@ -42,14 +41,6 @@ function Navbar() {
 						/>
 					</Link>
 					<ul className='flex items-center gap-10'>
-						<Link to='/about'>
-							<li
-								onClick={() => dispatch(setDropdownToFalse())}
-								className='list-child'
-							>
-								Explore
-							</li>
-						</Link>
 						<li className='flex items-center gap-1 list-child'>Curriculum</li>
 						<Link to='/shop'>
 							<li
